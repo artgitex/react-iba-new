@@ -1,0 +1,8 @@
+.numpos {
+  position: absolute;
+  top: 260px;
+  right: 10px;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.1);
+  user-select: none;
+}

@@ -1,0 +1,36 @@
+.nav {
+  margin-top: 7px;
+  color: gray;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.nav > * {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.nav > :first-child {
+  z-index: 1;
+  text-align: left;
+}
+
+.nav > :last-child {
+  z-index: 1;
+  text-align: right;
+}
+
+.actions {
+  cursor: pointer;
+  margin-left: 10px;
+  color: gray;
+}
+
+.cardEdit,
+.cardSave,
+.cardCancel,
+.cardCheckmark {
+  cursor: pointer;
+  margin-left: 10px;
+}

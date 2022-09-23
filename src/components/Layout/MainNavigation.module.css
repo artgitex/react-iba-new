@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  padding: 0 3%;
+  justify-content: space-between;
+  align-items: flex-start;
+  white-space: nowrap;  
+}
+
+.header > * {
+  flex-grow: 1;
+  width: 33%;
+}
+
+.title {
+  font-family: "Pokemon Hollow";
+  font-size: 3.3rem;
+  color: rgb(91, 131, 238);
+  text-align: center;
+  user-select: none;
+}
+
+.img {
+  padding-top: 10px;
+  width: 120px;
+  height: 120px;
+}
+.nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #88dfdf;
+  color: rgb(229,150,29)
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #e6fcfc;  
+}
+
+.button {
+  font: inherit;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.badge {
+  background-color: rgb(229, 150, 29);
+  padding: 0.25rem 1rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.welcome {
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: -moz-right;
+  text-align: -webkit-right;
+  user-select: none;
+}
+
+.td_align {
+  vertical-align: bottom;
+  padding-bottom: 5px;
+}
+
+
+.logocontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+@media only screen and (max-width: 1200px) {
+  .welcome {
+    display: none;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,22 @@
+.bodyshow {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.bodyedit {
+  width:90%;
+  height: 150px;
+  resize: none;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  background-color: #f1e1fc;  
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
